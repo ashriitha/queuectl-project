@@ -134,7 +134,7 @@ python main.py config show
 
 # Change max_retries to 5
 python main.py config set max_retries 5
-🏛️ Architecture
+ Architecture
 This project is split into four main Python files:
 
 main.py (The CLI): The user-facing interface, built with Typer. This is the "manager" who enqueues jobs and checks status. It's also responsible for starting and stopping the worker processes.
@@ -178,7 +178,7 @@ It sets a global SHUTDOWN_REQUESTED flag to True.
 
 The main while loop in the worker exits, but only after the current job is finished.
 
-🧪 How to Test
+ How to Test
 You can verify all core functionality with this flow:
 
 Start Workers: python main.py worker start --count 3
