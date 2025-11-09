@@ -1,0 +1,14 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+
+# SQLite Database
+queue.db
+
+# PID file
+*.pid
+
+# Configuration file (it's better to share a template, but for this project, ignoring is fine)
+config.json
